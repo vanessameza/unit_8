@@ -13,6 +13,7 @@
 html{
   font-family: 'Source Serif Pro', serif;
   -webkit-font-smoothing: antialiased;
+  font-size: 16px;
 }
 
 body{
@@ -52,7 +53,7 @@ nav ul{
 #mainMenu ul li{
 	color: #51A39D;
 	display: inline;
-	padding: 5px 0px 5px 30px;
+	padding: 5px 0px 5px 30px; /* should these be percentages? */
 }
 
 p{
@@ -64,7 +65,7 @@ p{
 
 .section-title{
   color: #fff; /* section title(s) color */
-  font-size:3rem;
+  font-size: 3em;
   font-weight: 700;
   margin: 5%;
 }
@@ -80,7 +81,7 @@ p{
 
 .section-title{
   color: #fff;
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 700;
   margin: 5% 0 0 0;
 }
@@ -88,7 +89,7 @@ p{
 .section-content{
   color: #FFE2B8;
   font-family: 'Merriweather', serif; 
-  font-size: 1rem;
+  font-size: 1em;
 	font-weight: semi-bold;
   margin: 0 auto 5% auto;
   padding: 2% 2% 0 2%;
@@ -116,14 +117,14 @@ p{
   color: #51A39D;
   font-size: 3em;
   display: block;
-  padding: 0 0 5px 0;
+  padding: 0 0 5px 0; /* should these be percentages? */
 }
 
 .projects-wrapper {
   background-color: #FF957E;
 }
 .projects{
-  max-width: 1190px;
+  max-width: 1190px; /* should these be percentages? */
   margin: 0 auto;
   height: 100%;
   padding: 5% 0 0 0;
@@ -137,7 +138,6 @@ p{
 
 /* footer */
 .footer{
-  font-size: 3rem;
   background-color: #333333;
   text-align: center;
   padding: 0 0 5% 0;
@@ -152,18 +152,18 @@ p{
 }
 
 .footer a,i{
-  font-size: 1.5rem;
+  font-size: 2em;
   color: #51A39D;
 }  
 
 /*slogan */
 #slogan{
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 400;
 	font-style: italic;
 	color: #51A39D;
   padding: 0% 0 5% 0;
-  max-width: 400px;
+  max-width: 30%; 
   margin: 0 auto;
   line-height: 150%
 }
